@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv = "X-AU-Compatible" content="IF=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="style.css">
+	<title>Encriptogrador</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img class= "logoAlura" src="Vector.png" alt= "logo da Alura">
+	</header>
+
+<main>
+	<section>
+		<textarea class="text-area" cols="41" rows="4" placeholder="Digite o texto"></textarea>
+		<div class="informacao">
+			<h6>Apenas letras minúsculas e sem acento</h6>
+		</div>
+
+		<div class="botoes">
+			<button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+			<button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+		</div>
+	</section>
+
+	<section>
+        <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        <textarea class="mensagem" cols="20" rows="10" placeholder="Mensagem copiada"readonly>
+        </textarea>
+    </section>
+
+    <section id="imagem">
+        <img class="imagem" src="boneco.png" alt="boneco">
+        <h2>NENHUMA MENSAGEM ENCONTRADA</h2>
+        <p2>Digite um texto que você deseja criptografar ou descriptografar</p2>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+
+<footer>
+	<p>Criado por Det.ERicGrilo</p>
+</footer>
+</html>
